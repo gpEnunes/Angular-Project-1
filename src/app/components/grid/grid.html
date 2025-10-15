@@ -1,0 +1,11 @@
+<div class="grid">
+  <div class="cell" *ngFor="let row of grid">
+    <cell
+      *ngFor="let node of row"
+      [node]="node"
+      (mouseDown)="handleMouseDown($event)"
+      (mouseEnter)="handleMouseEnter($event)"
+      (mouseUp)="handleMouseUp()"
+    ></cell>
+  </div>
+</div>

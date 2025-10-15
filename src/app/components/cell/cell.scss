@@ -1,0 +1,25 @@
+.node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.start {
+  background-color: green;
+}
+
+.end {
+  background-color: red;
+}
+
+.wall {
+  background-color: black;
+}
+
+.visited {
+  background-color: lightblue;
+}
+
+.path {
+  background-color: yellow;
+}

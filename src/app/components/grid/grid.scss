@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cell {
+  display: flex;
+  flex: 1;
+}
+
+.node {
+  flex: 1;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
